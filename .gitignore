@@ -1,0 +1,21 @@
+# Never upload database credentials
+wp-config.php
+
+# macOS files
+.DS_Store
+
+# WordPress temporary files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/ai1wm-backups/
+
+# Log files
+*.log
+wp-content/debug.log
+
+# Local server configuration
+.htaccess
+
+# Database exports should not be uploaded
+*.sql
